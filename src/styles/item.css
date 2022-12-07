@@ -1,0 +1,103 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  margin: 0.8rem;
+  width: 22rem;
+}
+
+.first-container {
+  width: 9rem;
+  height: 12rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 0 20px;
+  background-color: green;
+  border-radius: 7px;
+  position: relative;
+}
+
+.first-container > :nth-child(1) {
+  font-size: 1.2rem;
+  margin: 27px 2px 0 15px;
+  text-align: left;
+  font-weight: 600;
+}
+.first-container > :nth-child(2) {
+  font-size: 0.8rem;
+  margin: 0 2px 0 15px;
+  text-align: left;
+  font-weight: 100;
+}
+.first-container > :nth-child(3) {
+  text-align: center;
+  font-size: 0.8rem;
+  position: absolute;
+  bottom: 27px;
+  left: 18%;
+}
+.first-container > :nth-child(4) {
+  position: absolute;
+  bottom: 0px;
+  left: 15%;
+  align-items: center;
+  width: 6.5rem;
+  color: white;
+}
+
+.second-container {
+  width: 22rem;
+  height: 10.5rem;
+  background: #ececec;
+  border-radius: 10px;
+  display: flex;
+  margin-top: -155px;
+  z-index: -1;
+}
+.second-container > :nth-child(1) {
+  flex: 1;
+}
+.items {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  align-items: flex-start;
+}
+.items > :nth-child(1) {
+  font-size: 1rem;
+  margin: 25px 2px 0 0;
+  font-weight: 600;
+}
+.items > :nth-child(2) {
+  font-size: 0.7rem;
+  margin: 0 2px 0 0;
+  font-weight: 400;
+}
+.items > :nth-child(3) {
+  font-size: 0.8rem;
+  margin: 25px 2px 0 0;
+  font-weight: 400;
+  color: #c0c0c0;
+}
+
+.items > :nth-child(4) {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 0.6rem;
+}
+
+.active,
+.inactive {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.active > h1,
+.inactive > h1 {
+  width: 100%;
+  text-align: left;
+  margin-left: 3rem;
+  color: grey;
+}
